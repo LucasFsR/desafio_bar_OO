@@ -42,5 +42,7 @@ public class Program {
 		System.out.println("");
 
 		System.out.printf("Valor a pagar = R$ %.2f%n", bill.total());
+		
+		sc.close();
 	}
 }
